@@ -1,0 +1,13 @@
+<ui:composition
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:b="http://bootsfaces.net/ui"
+        xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:outputStylesheet name="userBar.css" library="css" position="last"/>
+    <div id="userBar">
+        <b:link style-class="userBarInfo" onclick="alert('clicked!'); return false;" value="Sven Svensson"/>
+        <b:link style-class="userBarInfo" onclick="alert('clicked!'); return false;" iconAwesome="sign-in"/>
+        <b:link style-class="userBarInfo" onclick="alert('clicked!'); return false;" iconAwesome="bell"/>
+        <b:link style-class="userBarInfo" onclick="alert('clicked!'); return false;" iconAwesome="cog"/>
+        <b:link style-class="userBarInfo" onclick="alert('clicked!'); return false;" iconAwesome="sign-out"/>
+    </div>
+</ui:composition>

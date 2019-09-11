@@ -1,0 +1,70 @@
+<ui:composition
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:b="http://bootsfaces.net/ui">
+    <h1>Hi.</h1>
+    <b:fullCalendar
+            businessHours="{start: '08:00', end: '16:00', dow: [1, 2, 3, 4, 5]}"
+            day-click="function(calEvent, jsEvent, view){ $(this).css('background', 'blue'); }"
+    />
+    <p>Ad posidonium incorrupte eam, est et essent praesent! Vis ei atomorum quaerendum, postulant interpretaris mei cu, mea cu enim consul invidunt? Te nec veri errem, aliquam commune his an, ad quod aperiam denique usu. Nam no quod eros molestie, ea delenit vulputate qui. Atqui dicant deterruisset eu vis? Te eius regione reformidans eum, in veniam ornatus maiestatis nec.
+
+        Ius ne simul adipisci, pri te dictas iriure instructior. No pri mandamus forensibus, et nam cibo disputationi, sit quem rebum deleniti cu! Sea te esse affert constituto! Ut nobis affert usu, per dicta nihil quaestio an? Meis fugit prompta et eum!
+
+        Platonem signiferumque id duo. Est tantas disputationi ei, sint solet vivendum ad duo. Tollit aliquam copiosae in mei, id nihil tollit delicatissimi duo. Aperiam sensibus salutandi eos ea, ipsum saperet nec ad. Vim voluptatum voluptatibus id, vel etiam patrioque ad. Vim an habeo conceptam deseruisse, mea ne lucilius argumentum, id integre singulis reprimique est?
+
+        An mei amet fugit quodsi, et prima dicit facilis sea. Vis ornatus percipit expetendis ex, mutat tritani feugiat qui an, sed esse nonumy adipisci at. Pri ad saepe antiopam. Nullam eruditi voluptaria qui cu, mel cu dicit facete perpetua, an quo copiosae voluptatum. Unum prima no pro, cu amet modus electram has? Mei cu sint iriure, discere dolorum temporibus vim in.
+
+        Duo elit petentium maiestatis in, eu nam erant expetenda? Nonumy quaestio mei an, detracto repudiare cum no, suscipit suavitate conceptam vis ea! Malorum nusquam eam eu, id ius nisl postea vocent. Lucilius oportere definitiones cum eu.
+
+        Ad sit natum aeque nostrum, ea elitr omnes tacimates vix. Ex saepe ridens sea. Id nostro facilisi efficiendi eos. Saepe tempor causae ei pri, quod alterum eruditi vim ut.
+
+        Ne pro quidam nonumes constituam, est commune verterem te? Id fugit maiorum explicari vim. Id eos utroque consulatu splendide? Tollit albucius qui id, quo ne eius quando.
+
+        Vix ea dicam tempor, usu ei ipsum offendit! Ea pro debet qualisque salutatus, duo in cetero utroque, illum ceteros vulputate ex pro. His placerat suscipiantur in. Vim ad utroque habemus suscipiantur, eripuit ceteros eum te. Mea partem blandit lucilius et, virtute consequat et his.
+
+        Choro audiam eu pri, an praesent delicatissimi usu. Mei cu agam facer definiebas, veri iriure pri ex. Congue postulant vix cu. Eos alia menandri ullamcorper at, ei mei sonet reprimique, id iudicabit posidonium vix.
+
+        Duo ne essent consetetur scriptorem, mea ex vide invidunt, clita assentior sed ut. Ullum dicam populo et duo! In detracto suavitate reformidans qui. Mei paulo veritus facilisis no, labitur vituperatoribus te per! Probo qualisque rationibus ne eum, molestie tacimates eloquentiam id mei.</p>
+    <canvas id="hehehe"/>
+    <script>var ctx = document.getElementById('hehehe').getContext('2d');
+	new Chart(ctx, {
+        type: 'bar',
+		data: {
+			datasets: [{
+				data: [
+					[14],
+					[4],
+					[5],
+					[1]
+				],
+				backgroundColor: [
+					'#6acc70',
+					'#cc832b',
+					'#cc242c',
+					'#ff00a9'
+				],
+				label: 'Mathematics 101'
+			}],
+			labels: [
+				"Presence",
+				"Late",
+				"Absence",
+				"Dead"
+			]
+		},
+		options: {
+			scales: {
+				yAxes: [{
+					ticks: {
+						beginAtZero: true
+					}
+				}]
+			},
+			responsive: true,
+			animation: {
+				animateScale: true,
+				animateRotate: true
+			}
+		}
+	});</script>
+</ui:composition>

@@ -1,0 +1,24 @@
+<ui:composition
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:b="http://bootsfaces.net/ui"
+        xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:h="http://xmlns.jcp.org/jsf/html"
+        xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:outputStylesheet name="header.css" library="css" position="last"/>
+    <!--<b:image id="logo" name="ITVM" width="150" height="150" value="/resources/img/logo.jpg"/><br/>-->
+    <div id="logoAndSearch">
+        <b:image id="logo" name="ITVM" value="http://www.lexicon.se/Static/images/logo-lexicon.gif"/>
+        <div id="search">
+            <b:form inline="true">
+                <b:inputText labelStyle="width:80px;">
+                    <f:facet name="prepend">
+                        <h:outputText value="Search"/>
+                    </f:facet>
+                </b:inputText>
+            </b:form>
+        </div>
+    </div>
+    <div id="buttonBar">
+        <a href="#">Home</a> - <a href="#">Courses</a> - <a href="#">Contact</a> - <a href="#">Admin</a> - <a
+            href="#">Test</a>
+    </div>
+</ui:composition>

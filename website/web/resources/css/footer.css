@@ -1,0 +1,13 @@
+#footer {
+	position: inherit;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 65%;
+	background-color: #efefef;
+	text-align: center;
+	padding: 10px;
+	margin: 10px auto 0;
+	border-top: 5px solid #ccc;
+	border-radius: 15px 15px 0 0;
+	}

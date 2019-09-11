@@ -1,0 +1,20 @@
+#userBar {
+	text-align: right;
+	width: 100%;
+	margin-left: -10px;
+	height: 30px;
+	}
+
+.userBarInfo {
+	color: #fff;
+	text-shadow: 1px 1px 1px #b7b7b7, 0 0 5px #b7b7b7, 0 0 1px #b7b7b7;
+	padding: 10pt;
+	font-size: 12pt;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration-line: underline;
+	}
+
+.userBarInfo > a:hover, .userBarInfo > a:focus {
+	outline: 0 !important;
+	color: #f2f2f2 !important;
+	}

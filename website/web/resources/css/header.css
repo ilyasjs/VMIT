@@ -1,0 +1,34 @@
+#buttonBar {
+	background: #fafafa;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid #ccc;
+	border-right-style: hidden;
+	border-bottom: 1px solid #ccc;
+	border-left-style: hidden;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	}
+
+#buttonBar > a {
+	color: #000;
+	}
+
+#buttonBar > a:active, #buttonBar > a:focus, #buttonBar > a:visited, #buttonBar > a:hover {
+	color: #000;
+	}
+
+#logo {
+	padding: 15px;
+	float: left;
+	}
+
+#logoAndSearch {
+	height: 110px;
+	}
+
+#search {
+	float: right;
+	padding: 15px;
+	}

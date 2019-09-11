@@ -1,0 +1,34 @@
+<ui:composition
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:b="http://bootsfaces.net/ui"
+        xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <b:container>
+        <b:form styleClass="form-register" prependId="false">
+            <h2 class="form-signin-heading">Student Registration</h2>
+            <!-- <b:inputText id="firstname" placeholder="First Name" value='#{sendSMS.name}'> -->
+            <b:inputText id="firstname" placeholder="First Name">
+                <f:facet name="prepend">
+                    <b:icon name="glyphicon-user"/>
+                </f:facet>
+            </b:inputText>
+            <b:inputText id="lastname" placeholder="Last Name">
+                <f:facet name="prepend">
+                    <b:icon name="glyphicon-user"/>
+                </f:facet>
+            </b:inputText>
+            <b:inputText id="email" placeholder="Email Address">
+                <f:facet name="prepend">
+                    <b:icon name="glyphicon-envelope"/>
+                </f:facet>
+            </b:inputText>
+            <!-- <b:inputText id="number" placeholder="Phone Number" value='#{sendSMS.number}' > -->
+            <b:inputText id="number" placeholder="Phone Number">
+                <f:facet name="prepend">
+                    <b:icon name="glyphicon-phone"/>
+                </f:facet>
+            </b:inputText>
+            <!-- <b:commandButton action="#{sendSMS.sendSMStest}" look="primary btn-block" value="Create" icon="glyphicon-fire" size="lg"/> -->
+            <b:commandButton look="primary btn-block" value="Create" icon="glyphicon-fire" size="lg"/>
+        </b:form>
+    </b:container>
+</ui:composition>
